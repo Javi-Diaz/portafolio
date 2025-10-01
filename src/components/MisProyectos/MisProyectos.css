@@ -1,0 +1,147 @@
+.misProyectos-container{
+    padding: 0 2rem;
+}
+
+.misProyectos-titulo{
+    color: #fff;
+    font-size: 1.7rem;
+    margin: 1rem 0 .5rem;
+}
+
+.misProyectos-container a{
+    text-decoration: none;
+}
+
+.misProyectos-card{
+    width: 420px;
+    background-color: #ffffff17;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+}
+
+.misProyectos-card img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.misProyectos-card-tecnologysBox{
+    padding: .5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.misProyectos-card-tecnologyBox{
+    display: flex;
+    padding: .5rem;
+    width: fit-content;
+    border: 1px solid #ffffff1f;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.misProyectos-card-tecnologyBox p{
+    color: #fff;
+}
+
+.misProyectos-card-tecnologyBox svg{
+    margin-right: .3rem;
+}
+
+.misProyectos-card-tecnologyBox .logo-html{
+    color: #ff7920;
+}
+
+.misProyectos-card-tecnologyBox .logo-css{
+    color: #1491ff;
+}
+
+.misProyectos-card-tecnologyBox .logo-js{
+    color: #fbff14;
+}
+
+.misProyectos-card-tecnologyBox .logo-react{
+    color: #1491ff;
+}
+
+.misProyectos-card-tecnologyBox .logo-node{
+    color: #12b13d;
+}
+
+.misProyectos-card-tecnologyBox .logo-bootstrap{
+    color: #ab25fb;
+}
+
+.misProyectos-card-tecnologyBox .logo-sass{
+    color: #cf649a;
+}
+
+.misProyectos-verTodo{
+    padding: .8rem;
+    background-color: #ffffff17;
+    color: #fff;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.misProyectos-verTodo svg{
+    margin-left: .3rem;
+}
+
+.misProyectos-verTodo:hover{
+    background-color: #ffffff36;
+}
+
+.borde-hover {
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: #111;
+  color: white;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.borde-hover:hover {
+  border: 1px solid #fff;
+  box-shadow: 0 0 15px #fff;
+}
+
+@media screen and (min-width:1024px){
+    .misProyectos-container {
+        padding: 0 5rem;
+        display: grid;  
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        gap: 2rem;
+        max-width: 1440px; 
+        margin: 0 auto; 
+    }
+
+
+    .misProyectos-titulo {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    
+    .misProyectos-card {
+        margin: 0;
+        max-width: 100%; 
+        
+    }
+
+
+    .misProyectos-verTodo {
+        grid-column: 1 / -1;
+        margin-top: 1rem;
+    }
+
+}

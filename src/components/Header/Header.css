@@ -1,0 +1,31 @@
+.header{
+    max-width: 248px;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+}
+
+.header-nav{
+    align-items: center;
+    display: flex;
+    height: 48px;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #00000099;
+    border-radius: 12px;
+}
+
+.header-nav-a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.header-nav-a-active{
+    background-color: #8e00ffbf;
+    padding: .5rem;
+    border-radius: 8px;
+}

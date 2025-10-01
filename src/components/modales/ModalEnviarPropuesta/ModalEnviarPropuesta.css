@@ -1,0 +1,44 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100dvw;
+    height: 100dvh;
+    background: #000000ad;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    /* animación */
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.modalAbierto {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+
+.box-p {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    transform: translateY(-20px);
+    transition: transform 0.4s ease;
+}
+
+.modalAbierto .box-p {
+    transform: translateY(0);
+}
+
+.box-p p {
+    color: #000;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
