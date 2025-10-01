@@ -1,5 +1,5 @@
 import { FaReact,FaHtml5, FaCss3Alt,FaJs, FaNodeJs, FaBootstrap, FaSass, FaArrowRight } from "react-icons/fa";
-import reactShop from "../../assets/reactShop.png"
+import reactshop from "../../assets/reactshop.png"
 import repuestostnt from "../../assets/repuestostnt.png"
 import bootstrap from "../../assets/bootstrap.png"
 import sass from "../../assets/sass.png"
@@ -32,7 +32,7 @@ function MisProyectos(){
             
             <a href="https://reactshop-flax.vercel.app/" target="_blank">
                 <div className="misProyectos-card borde-hover">
-                    <img src={reactShop} alt="Foto del proyecto de ReactShop" />
+                    <img src={reactshop} alt="Foto del proyecto de reactshop" />
                     <div className="misProyectos-card-tecnologysBox">
                         <div className="misProyectos-card-tecnologyBox">
                             <FaReact className="logo-react"/>
